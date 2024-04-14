@@ -1,3 +1,4 @@
+
 import { useFetchData } from "../api/apiUtils";
 
 export default function Home() {
@@ -13,4 +14,6 @@ export default function Home() {
   console.log(data);
 
   return <>메인</>;
+
+
 }
